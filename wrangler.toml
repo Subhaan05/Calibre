@@ -1,0 +1,12 @@
+cat > wrangler.toml << 'EOF'
+name = "calibre"
+compatibility_date = "2024-01-01"
+pages_build_output_dir = "."
+
+[[d1_databases]]
+binding = "DB"
+database_name = "calibre-db"
+database_id = "ab4f5a6f-57c1-464e-ab54-21749b1176d1"
+EOF
+
+
